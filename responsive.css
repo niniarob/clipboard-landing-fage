@@ -1,0 +1,159 @@
+@media screen and (min-width:1519px){
+    h3{
+        font-size: 36px;
+        line-height: 45px;
+        letter-spacing:-0.59px;
+    }
+    p{
+        width: 789px;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.14px;
+    }
+    header{
+        width: 100%;
+        background-image: url(./assets/Bitmap\ \(16\).svg);
+        background-size: 100%;
+    }
+    .header-box {
+        width: 1519px;
+    }
+    .header-box h1{
+        font-size: 46px;
+        line-height: 57.5px;
+        letter-spacing: -0.75px;
+        margin-top: 56px;
+    }
+    .header-box p{
+        width: 700px;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.15px;
+    }
+    button{
+        width: 227px;
+    }
+    .button-box{
+        width: 1519px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 16px;
+    }
+    section{
+        width: 100%;
+        margin-top: 150px;
+    }
+    .keep-txt{
+        width: 1519px;
+        gap: 19px;
+    }
+    .keep-txt p{
+        width: 700px;
+    }
+    .img-txt{
+        width: 1519px;
+        display: flex;
+        flex-direction: row;
+        justify-content:end;
+        align-items: center;
+        margin-top: 180px;
+    }
+    .img-txt img{
+        display: none;
+    }
+    .img-txt .comp-desk{
+        display: block;
+    }
+    .comp-desk{
+         position:absolute;
+        left: 0;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .box p {
+        text-align: start;
+        width: 404px;
+    } 
+    .dsc-com {
+        margin: 0 230px 65px;
+    }
+    .clipboard{
+        width: 1519px;
+    }
+    .clip-txt p{
+         width: 692px;
+    }
+    .mob-img{
+        width: 1519px;
+    }
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+    .workflow{
+        width: 1519px;
+    }
+    .grid{
+        width: 1519px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .mob{
+        display: none;
+    }
+    .des{
+        display: block;
+    }
+    .list p{
+        font-size: 15px;
+    }
+    .ios-os{
+       width: 1519px;
+    }
+    .butbox{
+        margin-bottom: 140px;
+    }
+    .ios-os h3{
+        width: 730px;
+    }
+    .ios-os p{
+        width: 730px;
+        margin-top: 20px;
+    }
+    footer{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    .faqs{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        /* gap: 0; */
+        margin-top: -25px;
+        align-items: start;
+
+    }
+    .privacy{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-top: -30px;
+        /* gap: 0; */
+
+    }
+    .guide{
+        margin-top: -30px;
+    }
+}
