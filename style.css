@@ -95,7 +95,7 @@ header{
     align-items: center;
     gap: 24px;
 }
-.button-box.but-one:hover{
+.but-one:hover{
     background-color: var(--white);
     color: var(--but-one);
     border: var(--but-one);
