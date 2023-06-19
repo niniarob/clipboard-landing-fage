@@ -51,6 +51,7 @@ button{
     letter-spacing: 0.5px;
     text-align: center;
     color: var(--white);
+    cursor:pointer;
 }
 header{
     width: 375px;
@@ -93,6 +94,19 @@ header{
     flex-direction: column;
     align-items: center;
     gap: 24px;
+}
+.but-one:hover{
+    background-color: var(--white);
+    color: var(--but-one);
+    border: var(--but-one);
+    transition: 1s;
+
+}
+.button-box .but-two:hover{
+    background-color: var(--white);
+    color: var(--but-two);
+    border: var(--but-two);
+    transition: 1s;
 }
 .button-box .but-one{
     font-family: "Bai Jamjuree";
